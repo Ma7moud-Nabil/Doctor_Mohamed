@@ -141,7 +141,7 @@ ul {
 }
 
 .service-sec1 {
-  background-image: url("/images/background.png");
+  background-image: url("../images/background.png");
   background-size: cover;
   text-align: center;
   padding: 88px 0;
@@ -154,7 +154,7 @@ ul {
 
 @media (max-width: 554px) {
   .service-sec1 {
-    background-image: url("/images/mobile_background.png");
+    background-image: url("../images/mobile_background.png");
     padding: 25px 0;
   }
 
