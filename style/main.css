@@ -275,12 +275,13 @@ footer ul li a:hover {
 @media (max-width: 767px) {
   footer {
     margin-top: -30px;
-    padding: 70px 40px;
+    padding: 70px 0;
   }
 
   footer ul li a {
-    font-size: 14px;
-    margin: 0 10px;
+    font-size: 12px;
+    margin: 0 5px;
+    padding: 5px;
   }
 }
 
