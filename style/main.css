@@ -295,7 +295,7 @@ ul {
   width: 190px;
   height: 190px;
   background-image: url("../images/Frame\ 5.png");
-  left: -110px;
+  left: -60px;
   bottom: 50px;
   z-index: -20;
 }
@@ -683,7 +683,7 @@ ul {
 }
 
 .home-sec4 .contacts .contact-card {
-  padding: 15px 30px;
+  padding: 20px 30px;
   background-color: #fbfbfb;
   border-radius: 20px;
 }
@@ -718,7 +718,7 @@ ul {
 }
 
 .home-sec4 .contacts .contact-card i {
-  margin-left: 8px;
+  margin-left: 10px;
 }
 
 .home-sec4 .contacts .contact-card h3 {
@@ -727,7 +727,7 @@ ul {
 }
 
 .home-sec4 .contacts .contact-card > p {
-  margin: 10px 0;
+  margin: 20px 0;
   font-size: 20px;
 }
 
@@ -739,7 +739,7 @@ ul {
 .home-sec4 .contacts .contact-card .closed-time {
   font-size: 20px;
   color: #143e5d;
-  margin: 8px 0;
+  margin: 10px 0;
 }
 
 .home-sec4 .contacts .contact-card .closed-time span {
@@ -756,7 +756,7 @@ ul {
 }
 
 .home-sec4 .contacts .contact-card .phone-numbers .num {
-  margin: 8px 0;
+  margin: 10px 0;
 }
 
 /* End Home Page */
