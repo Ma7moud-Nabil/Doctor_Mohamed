@@ -129,11 +129,9 @@ ul {
 
   .header nav ul {
     display: none;
-    z-index: 10;
-    box-shadow: 0 1px 10px #a1caf9dc;
   }
-
-  .header .bars:hover + nav ul {
+  
+  .header .bars + nav ul.active {
     display: block;
     position: absolute;
     top: 100%;
@@ -142,9 +140,11 @@ ul {
     background-color: #fff;
     width: 100%;
     padding: 20px;
+    z-index: 20;
+    box-shadow: 0 10px 10px #a1caf9dc;
   }
 
-  .header .bars:hover + nav ul li {
+  .header .bars + nav ul li {
     text-align: center;
     margin: 10px auto;
     padding: 5px;
@@ -152,10 +152,9 @@ ul {
     border-radius: 6px;
   }
 
-  .header .bars:hover + nav ul li a.active,
-  .header .bars:hover + nav ul li a:hover {
-    color: var(--main-color);
+  .header .bars + nav ul li a {
     border: none;
+    display: block;
   }
 }
 
